@@ -1,0 +1,84 @@
+body{
+    background-image: url("imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2D32B5; /* Color de fondo de la barra del menu */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #FF0000; /* Color de la pestaña del menu al pasar por encima*/
+}
+
+.active {
+    background-color: #00FF00; /* Color */
+}
+
+.error {
+    padding-left:  5px;
+    color:  crimson;
+    font-size: small;
+}
+
+#cuerpo{    
+    padding: 15px;
+    min-height: 500px;
+}
+
+#formulario {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+label {
+    width: 1em;
+    padding-right: 0.6em;
+    float: ;
+}
+
+#form {
+    margin-top: 2em;
+    text-align: center;
+    width: 50%;
+}
+#form input {
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /*box-sizing: border-box;*/
+}
+
+#form input[type='submit'] {
+    width: 10em;
+     margin: 1px 0;
+    background-color: #4CAF50;
+    border-radius: 4px;
+}
+
+
+#pie {
+    margin: 0 auto;
+    border-top:  3px solid ;
+    text-align: center;
+    font-size: smaller;
+}
